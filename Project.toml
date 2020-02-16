@@ -1,0 +1,8 @@
+name = "NumericalSoundSynthesis"
+uuid = "2b167c84-5f23-4342-aab9-57030ebaba21"
+authors = ["jakubwro <jakubwro@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+PortAudio = "80ea8bcb-4634-5cb3-8ee8-a132660d1d2d"
+Unitful = "1986cc42-f94zf-5a68-af5c-568840ba703d"
