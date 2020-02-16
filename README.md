@@ -9,5 +9,6 @@ This is work in progress, may not work on your system yet. Especially it awaits 
 using NumericalSoundSynthesis
 instruments = Instrument[];
 push!(instruments, SineInstrument());
+push!(instruments, PolySineInstrument(SineInstrument[]));
 keyboard(instruments)
 ```
